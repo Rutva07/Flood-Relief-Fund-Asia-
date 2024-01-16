@@ -12,5 +12,3 @@ Four databases namely donors, receivers, available and users are used to store d
 The user who is a donor needs to simply enter username, amount(no limit) and card details to donate. Donors must use Visa or MasterCard to donate. Their entered card details will be checked. People who needs the raised fund must enter their country, username, passport number and amount they require(limit $500). If user falls in flood affected Asian country, then only they will be able to withdraw fund. Passport numbers will be used by the website to ensure that user is certified.
 
 Moreover, the website also displays top donors' person_id and the amount they donated. Their name is not shown due to privacy purposes. Fund available for users to withdraw is also shown, so that they can see how much fund is left. All data such as registration, donor and its details, fund receiver and its details are stored in databases.
-
-My name is Rutva Patel, and this is `CS50`.
