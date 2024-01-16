@@ -12,3 +12,31 @@ Four databases namely donors, receivers, available and users are used to store d
 The user who is a donor needs to simply enter username, amount(no limit) and card details to donate. Donors must use Visa or MasterCard to donate. Their entered card details will be checked. People who needs the raised fund must enter their country, username, passport number and amount they require(limit $500). If user falls in flood affected Asian country, then only they will be able to withdraw fund. Passport numbers will be used by the website to ensure that user is certified.
 
 Moreover, the website also displays top donors' person_id and the amount they donated. Their name is not shown due to privacy purposes. Fund available for users to withdraw is also shown, so that they can see how much fund is left. All data such as registration, donor and its details, fund receiver and its details are stored in databases.
+
+## How to Start the Application
+1. Clone the repository: git clone https://github.com/Rutva07/Flood-Relief-Fund-Asia
+2. Navigate to the project directory: cd Flood-Relief-Fund-Asia (or folder name if changed) 
+3. Run the Flask application in terminal: flask run
+4. Navigate to given address.
+
+## File Information
+
+### Flask app (app.py)
+This is the main application file containing the Flask server setup, routes, and message handling logic.
+
+### HTML Templates (templates/...)
+These are the template files that defines the structure and style of the web pages. It includes input forms for posting messages, a button to submit messages, a section to display messages, links, images and many more.
+
+### CSS Styles (static/styles.css | templates/all files)
+This includes simple styles to enhance the visual appearance of the message blocks, form elements and other html elements.
+
+### CSV File (flood.csv)
+Contains information related to flood activities in year 2023.
+
+### Database File (database.db)
+Holds information of users, donations, withdrawl requests, etc.
+
+
+
+
+
