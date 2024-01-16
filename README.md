@@ -1,6 +1,6 @@
 # Flood Relief Fund(Asia)
 #### Video Demo:  https://youtu.be/qQF76fsK2mQ
-#### Description: This website is designed using javascript, css, html and python, and it helps people who don't have enough financial support and are affected by flood in Asia
+#### Description: This website is designed using flask, bootstrap, jinja, sqlite, javascript, css, html and python, and it helps people who don't have enough financial support and are affected by flood in Asia
 My project contains a python file named app.py, a static folder that contains images and styles.css that contains design for website, requirements.txt for knowing which external function app.py uses, database.db that stores information, flood.csv that stores natural disaster events of year 2023, README.md that contains information of my project and templates folder stores all .html files.
 
 My project is a website designed to help poor people in Asia who have lost their home or have no money for basic amenities due to the outrage of flood. In the present year 2023, many Asian countries have suffered due to flood and my project will serve as a medium to help those people affected by flood.
