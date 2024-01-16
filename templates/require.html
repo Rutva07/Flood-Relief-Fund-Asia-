@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Requirement
+{% endblock %}
+
+{% block main %}
+
+    <form action="/require" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" class="form-control mx-auto w-auto" min="0" id="amount" name="amount" placeholder="Withdraw Amount" type="number">
+            Maximum $500(if available)
+        </div>
+        <div class="mb-3">
+            <input autocomplete="off" class="form-control mx-auto w-auto" id="country" name="country" placeholder="Country" type="text">
+            Only available to flood affected countries in Asia!
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" id="passport_number" name="passport_number" placeholder="Passport Number" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Withdraw</button>
+    </form>
+
+{% endblock %}

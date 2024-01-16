@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Top Donors
+{% endblock %}
+
+{% block main %}
+
+    <main class="container py-5 text-center">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="text-start">Person_id</th>
+                    <th class="text-end">Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for donor in donors %}
+                    <tr>
+                        <td class="text-start">{{ donor.person_id }}</td>
+                        <td class="text-end">${{ donor.total_amount }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </main>
+
+{% endblock %}
