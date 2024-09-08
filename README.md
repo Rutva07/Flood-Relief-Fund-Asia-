@@ -36,7 +36,7 @@ Contains information related to flood activities in year 2023.
 ### Database File (database.db)
 Holds information of users, donations, withdrawl requests, etc.
 
-#Previously the app was running on heroku server.
+# (Previously the app was running on heroku server)
 
 
 
